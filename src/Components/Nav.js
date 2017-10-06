@@ -13,12 +13,13 @@ export default class Nav extends Component {
     return (
       <div className="nav">
         <div className="nav-container">
-          <div className="nav-logo"></div>
+          <div className="nav-logo">
+          </div>
           <div className="nav-buttons-container">
-            <div className="career-button">CAREER</div>
+            <div className="career-button">CAREERS</div>
             <div className="help-button">HELP</div>
             <div className="blog-button">BLOG</div>
-            <div className="signup-button">SIGNUP</div>
+            <div className="signup-button">SIGN UP</div>
           </div>
         </div>
       </div>
