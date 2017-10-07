@@ -29,7 +29,9 @@ export default class Home extends Component {
                 Sign Up
               </div>
               <div className="watch-button">
-                <div className="play-button"></div>
+                <div className="play-button-container">
+                  <img src="../assets/play.png"></img>
+                </div>
                 <div className="play-button-name">Watch Video</div>
               </div>
           </div>
