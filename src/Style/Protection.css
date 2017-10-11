@@ -1,0 +1,55 @@
+.pro-wrapper {
+  height: 1060px;
+  width: 100%;
+  background: #040d14;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.pro-container {
+  height: 100%;
+  width: 700px;
+  margin: 140px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pro-photo {
+  height: 250px;
+  width: 222px;
+  background-image: url(https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/home/security.png);
+  background-repeat: no-repeat;
+}
+.pro-content {
+  width: 750px;
+  height: 550px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.pro-header {
+  margin-top: 30px;
+  color: white;
+  font-size: 38px;
+  font-weight: 100;
+  line-height: 1.2;
+  letter-spacing: -.5px;
+  text-align: center;
+}
+.pro-subheader {
+  color: white;
+  font-size: 21px;
+  font-weight: 100;
+  line-height: 1.5;
+  letter-spacing: 1.1px;
+  text-align: center;
+}
+a {
+  color: #21ce99;
+  text-decoration: none;
+  font-weight: 300;
+}
+a:hover{
+  cursor: auto;
+  text-decoration: underline;
+}

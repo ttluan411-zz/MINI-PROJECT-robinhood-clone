@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Nav from './Components/Nav';
 import Home from './Components/Home';
 import Demo from './Components/Demo';
+import Protection from './Components/Protection';
+
 import './reset.css';
 
 class App extends Component {
@@ -11,6 +13,7 @@ class App extends Component {
         <Nav />
         <Home />
         <Demo />
+        <Protection />
       </div>
     );
   }
