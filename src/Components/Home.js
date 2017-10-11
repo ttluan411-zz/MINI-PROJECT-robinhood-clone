@@ -39,7 +39,9 @@ export default class Home extends Component {
               <video autoPlay loop>
                 <source src="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/video/home/home_animation_light.mp4"/>
               </video>
-
+            </div>
+            <div className="disclosure">
+              Show Disclosure
             </div>
           </div>
         </div>
