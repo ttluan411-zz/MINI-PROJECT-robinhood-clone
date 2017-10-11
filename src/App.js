@@ -3,6 +3,8 @@ import Nav from './Components/Nav';
 import Home from './Components/Home';
 import Demo from './Components/Demo';
 import Protection from './Components/Protection';
+import Realtime from './Components/Realtime';
+
 
 import './reset.css';
 
@@ -14,6 +16,7 @@ class App extends Component {
         <Home />
         <Demo />
         <Protection />
+        <Realtime />
       </div>
     );
   }

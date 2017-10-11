@@ -1,0 +1,29 @@
+.time-wrapper {
+  height: 1060px;
+  width: 100%;
+  background: #fff;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.time-container {
+  background: pink;
+  width: 600px;
+  height: 100%;
+}
+.time-header {
+  margin: 150px auto;
+  width: 80%;
+  height: 200px;
+  color: black;
+  font-size: 38px;
+  font-weight: 100;
+  line-height: 1.2;
+  letter-spacing: -.5px;
+  text-align: center;
+}
+.time-clock {
+  height: 250px;
+  width: 250px;
+  background: url(https://d2ue93q3u507c2.cloudfront.net/assets/marketing/images/home/fast_execution.png);
+}
