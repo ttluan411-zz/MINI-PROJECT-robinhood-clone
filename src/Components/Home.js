@@ -30,13 +30,17 @@ export default class Home extends Component {
               </div>
               <div className="watch-button">
                 <div className="play-button-container" >
-                  <img src="../assets/play.png" />
                 </div>
                 <div className="play-button-name">Watch Video</div>
               </div>
           </div>
           <div className="video-container">
+            <div className="video">
+              <video autoPlay loop>
+                <source src="https://d2ue93q3u507c2.cloudfront.net/assets/marketing/video/home/home_animation_light.mp4"/>
+              </video>
 
+            </div>
           </div>
         </div>
       </div>

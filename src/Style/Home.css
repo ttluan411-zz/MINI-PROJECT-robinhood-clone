@@ -8,6 +8,7 @@
   width: 1040px;
   height: 745px;
   margin: auto;
+  display: flex;
 }
 
 .text-container {
@@ -67,4 +68,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.video-container {
+  width: 310px;
+  height: 635px;
+  background-image: url('../assets/whitephone.png');
+  left: 50%;
+  margin-left: 210px;
+  margin-top: 20px;
+  position: absolute;
+}
+video {
+  width: 274px;
+  height: 477px;
+  position: absolute;
+  top: 12.6%;
+  left: 6.15%;
 }
