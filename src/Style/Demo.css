@@ -1,6 +1,6 @@
 .demo-wrapper {
   width: 100%;
-  height: 1200px;
+  height: 1150px;
   background-color: #21ce99;
   display: flex;
   justify-content: center;
@@ -8,10 +8,9 @@
 }
 .demo-container {
   width: 1040px;
-  height: 745px;
+  height: 845px;
   margin: auto;
   display: flex;
-  background: pink;
   flex-direction: column;
 }
 .demo-header {
@@ -21,6 +20,7 @@
   line-height: 1.5;
   letter-spacing: 1.5px;
   text-align: center;
+  margin-bottom: 90px;
 }
 .second-video-wrapper {
   height: 700px;
@@ -28,31 +28,51 @@
   background-image: url('../assets/whitephone.png');
   background-repeat: no-repeat;
   position: relative;
-  margin-left: 150px;
+  margin-left: 180px;
 }
 .second-video-container {
   height: 650px;
-  width: 700px;
+
 }
 .second-video {
   left: 4%;
-  top: 12%;
+  top: 12.3%;
 }
 .demo-content-container {
-  height: 650px;
-  width: 330px;
-  margin-left: 380px;
-  background: lightgreen;
+  height: 600px;
+  width: 280px;
+  margin-left: 350px;
 }
 .demo-content {
+  height: 380px;
+  width: 280px;
   color: white;
   font-size: 21px;
   font-weight: 100;
-  line-height: 1.7;
+  line-height: 1.5;
   letter-spacing: 1.2px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
 .demo-learn-button-container {
-  width: 300px;
-  height: 400px;
-  background: blue;
+  width: 280px;
+  height: 150px;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: top;
+  flex-direction: column;
+}
+.learn-button {
+  width: 100%;
+  height: 50px;
+  border: solid 1.2px white;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 50px;
+  cursor: pointer;
 }

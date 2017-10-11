@@ -18,21 +18,25 @@ export default class Demo extends Component {
                </video>
                <div className="demo-content-container">
                  <div className="demo-content">
-                    Robinhood started with the <br/>
-                    idea that a technology-<br/>
-                    driven brokerage could <br/>
-                    operate with significantly <br/>
-                    less overhead.<br/>
-                    <br/>
-                    We cut out the fat that <br/>
-                    makes other brokerages <br/>
-                    costly -- hundreds of <br/>
-                    storefront locations and <br/>
-                    manual account <br/>
-                    management.
+                    <p>
+                      Robinhood started with the <br/>
+                      idea that a technology-<br/>
+                      driven brokerage could <br/>
+                      operate with significantly <br/>
+                      less overhead.<br/>
+                    </p>
+                    <p>
+                      We cut out the fat that <br/>
+                      makes other brokerages <br/>
+                      costly -- hundreds of <br/>
+                      storefront locations and <br/>
+                      manual account <br/>
+                      management.
+                    </p>
                  </div>
                  <div className="demo-learn-button-container">
-
+                   <div className ="learn-button">Learn how we make money</div>
+                   <div className ="learn-button">Compare brokeragges</div>
                  </div>
                </div>
             </div>
