@@ -12,6 +12,9 @@ export default class Team extends Component {
           <div className="team-button">
             Join our team
           </div>
+          <div className ="logo-container">
+
+          </div>
         </div>
       </div>
     )

@@ -1,7 +1,7 @@
 .team-wrapper {
   width: 100%;
   height: 900px;
-  background: url('../assets/team.jpeg') 50% / cover;
+  background: url('../assets/team.jpeg') 80% / cover;
   padding-bottom: 0;
 }
 .team-container {
@@ -16,7 +16,7 @@
   line-height: 1.2;
   letter-spacing: -.5px;
   text-align: center;
-  padding: 280px 50px 150px 50px;
+  padding: 280px 50px 70px 50px;
 }
 .team-button {
   width: 250px;
@@ -33,4 +33,10 @@
   background: white;
   cursor: pointer;
   color: #21ce99;
+}
+.logo-container {
+  height: 280px;
+  width: 80%;
+  background:pink;
+
 }
