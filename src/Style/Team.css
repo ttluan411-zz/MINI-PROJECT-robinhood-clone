@@ -1,0 +1,6 @@
+.team-wrapper {
+  width: 100%;
+  height: 800px;
+  background: url('../assets/team.jpeg') 50% / cover;
+  padding-bottom: 0;
+}
