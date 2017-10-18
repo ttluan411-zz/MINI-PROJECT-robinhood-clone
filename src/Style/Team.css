@@ -16,7 +16,7 @@
   line-height: 1.2;
   letter-spacing: -.5px;
   text-align: center;
-  padding: 280px 50px 70px 50px;
+  padding: 240px 50px 70px 50px;
 }
 .team-button {
   width: 250px;
@@ -28,6 +28,7 @@
   text-align: center;
   line-height: 50px;
   font-size: 15px;
+  margin-bottom: 160px;
 }
 .team-button:hover {
   background: white;
@@ -35,8 +36,23 @@
   color: #21ce99;
 }
 .investor-container {
-  height: 280px;
-  width: 80%;
-  background:pink;
+  height: 100px;
+  width: 800px;
+  display: flex;
+  margin: 0 auto;
+}
+.investor-container-2 {
+  height: 100px;
+  width: 600px;
+  display: flex;
+  margin: 0 auto;
+}
 
+.investor-div {
+  height: 100px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
