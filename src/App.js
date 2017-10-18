@@ -5,6 +5,8 @@ import Demo from './Components/Demo';
 import Protection from './Components/Protection';
 import Realtime from './Components/Realtime';
 import Team from './Components/Team';
+import Footer from './Components/Footer';
+
 
 
 import './reset.css';
@@ -19,6 +21,7 @@ class App extends Component {
         <Protection />
         <Realtime />
         <Team />
+        <Footer />
       </div>
     );
   }

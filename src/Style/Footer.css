@@ -1,0 +1,33 @@
+
+.footer-wrapper {
+  width: 100%;
+  height: 900px;
+  background: #040d14;
+}
+.footer-container {
+  width: 900px;
+  height: 900px;
+  background: pink;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+.download-container {
+  width: 275px;
+  background: red;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.global-container {
+  margin-top: 100px;
+  width: 100%;
+  height: 150px;
+  background: lightgreen;
+  border-top: 1px solid #586468;
+  border-bottom: 1px solid #586468;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
