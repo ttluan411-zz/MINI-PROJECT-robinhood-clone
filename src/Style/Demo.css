@@ -76,3 +76,7 @@
   line-height: 50px;
   cursor: pointer;
 }
+.learn-button:hover {
+  background: white;
+  color: #21ce99;
+}
