@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import '../Style/Nav.css';
-import classNames from 'classnames';
 
 export default class Nav extends Component {
   constructor(){
