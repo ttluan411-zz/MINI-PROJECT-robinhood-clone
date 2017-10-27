@@ -28,7 +28,7 @@ export default class Footer extends Component {
             </div>
           </div>
             <div className="disclosure-container">
-              <div className="left-para">
+              <div className="para">
 
 
 
@@ -75,11 +75,12 @@ Margin trading involves interest charges and risks, including the potential to l
 . These disclosures contain information on our lending policies, interest charges, and the risks associated with margin accounts.
 
 
-
+<br/>
+<br/>
 Investors should consider the investment objectives and unique risk profile of Exchange Traded Funds (ETFs) carefully before investing. ETFs are subject to risks similar to those of other diversified portfolios. Leveraged and Inverse ETFs may not be suitable for all investors and may increase exposure to volatility through the use of leverage, short sales of securities, derivatives and other complex investment strategies.
 
               </div>
-              <div className="right-para">
+              <div className="para">
 
 
 

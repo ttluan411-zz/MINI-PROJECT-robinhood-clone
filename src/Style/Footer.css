@@ -1,19 +1,17 @@
 
 .footer-wrapper {
   width: 100%;
-  height: 900px;
+  height: 950px;
   background: #040d14;
 }
 .footer-container {
   width: 900px;
   height: 900px;
-  background: pink;
   margin: 0 auto;
   padding-top: 90px;
 }
 .download-container {
   width: 275px;
-  background: red;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -23,7 +21,6 @@
   margin-top: 100px;
   width: 100%;
   height: 150px;
-  background: lightgreen;
   border-top: 1px solid #586468;
   border-bottom: 1px solid #586468;
   display: flex;
@@ -33,7 +30,6 @@
 }
 .social-container {
   width: 250px;
-  background: red;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,7 +37,6 @@
 }
 .flag-container {
   width: 200px;
-  background: red;
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -50,9 +45,19 @@
   color: #21ce99;
 }
 .disclosure-container {
-  width: 670px;
-  height: 400px;
+  width: 900px;
+  height: 550px;
   display: flex;
-  font-size: 12px;
+  font-size: 11px;
   color: #586468;
+  display: flex;
+  justify-content: space-between;
+}
+.para {
+  text-align: justify;
+  margin-top: 40px;
+  width: 430px;
+  height: 500px;
+  line-height: 1.2;
+
 }
