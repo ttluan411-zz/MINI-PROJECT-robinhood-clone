@@ -29,5 +29,30 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 30px;
+}
+.social-container {
+  width: 250px;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.flag-container {
+  width: 200px;
+  background: red;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.global {
+  color: #21ce99;
+}
+.disclosure-container {
+  width: 670px;
+  height: 400px;
+  display: flex;
+  font-size: 12px;
+  color: #586468;
 }
